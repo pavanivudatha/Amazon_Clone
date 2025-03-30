@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.primary-navbar
+{
+  background-color: rgb(19, 11, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  
+  
+}
+.secondary-navbar
+{
+  background-color: rgb(101, 100, 100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.header
+{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.img
+{
+  height: 50px;
+  width: 150px;
+}
+.cartimg
+{
+  display:flex;
+  height: 50px;
+  width: 50px;
+  margin-right: '10px'
+}
+.flag
+{
+  height: 30px;
+  width: 30px;
+}
+.lang
+{
+  display: flex;
+    align-items: center; 
+    gap: 5px;
+}
+.menu
+{
+  padding-top: 5px;
+  padding-left:10px;
+  padding-right: 4px;
+  height: 30px;
+  width: 30px;
+}
+p{
+  color: white;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+h5{
+  color: white !important;
+  margin: 0; 
+  padding: 0;
+}
+
+.location
+{
+  display: flex;
+  align-items: center; 
+  
+}
+.loc {
+  width: 30px; 
+  height: 30px;
+}
+.location-text
+{
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  padding: 0; 
+}
+.search-section
+{
+  height:40px;
+  width: 750px;
+
+}
+.category
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -350px;
+  position: relative;
+}
+.category1
+{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+.box 
+{
+  width:24%;
+  background-color:white;
+  padding: 15px;
+}
+.box h4{
+  color: black;
+}
+.box-item
+{
+  justify-content: space-between;
+  display:flex;
+  flex-wrap: wrap;
+}
+.side-item
+{
+  width:47%;
+}
+.side-item p 
+{
+  color:black;
+  font-weight: 400;
+}
+
+.innerclass
+{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    line-clamp: 2;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.innerbox p
+{
+  color:black;
+}
+.innerbox img {
+  width: 60px; 
+  height: 60px; 
+  object-fit: contain;
+  margin-right: 10px; 
+}
+.bun{
+  margin-top: 10px;
+  width: 90px;
+  height: 50px;
+}
+.itemss h5
+{
+  color: black !important;
+
+}
