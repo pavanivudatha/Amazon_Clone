@@ -6,7 +6,7 @@ const Accounts = () => {
    var users=useContext(userContext) 
    const logout=()=>{
     localStorage.setItem("user_id",null)
-    window.location.replace("/")
+    window.location.replace("/Amazon_Clone")
 }
 
   return (

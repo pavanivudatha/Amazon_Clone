@@ -16,7 +16,7 @@ const LoginPage = () => {
         {
             console.log(response.data.data.user_id)
             localStorage.setItem("user_id",response.data.data.user_id)
-            window.location.replace("/account")
+            window.location.replace("/Amazon_Clone")
         }
     }
   }
