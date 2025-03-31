@@ -41,7 +41,7 @@ if(Checklogin()){
       <BrowserRouter>
       <Header></Header>
       <Routes>
-      <Route path="/" element={<HomePage></HomePage>}></Route>
+      <Route path="/Amazon_Clone" element={<HomePage></HomePage>}></Route>
       <Route path="/about" element={<AboutPage></AboutPage>}></Route>
       <Route path="/login" element={<LoginPage></LoginPage>}></Route>
       <Route path="/signin" element={<SigninPage></SigninPage>}></Route>
