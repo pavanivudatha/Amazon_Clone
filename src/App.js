@@ -2,7 +2,7 @@ import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import SigninPage from "./pages/SigninPage";
-import { Routes,BrowserRouter,Route } from "react-router";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Products from "./pages/Products";
@@ -37,22 +37,22 @@ if(Checklogin()){
 
   return (
     <div className="App">
-      <userContext.Provider value={users} >
-      <BrowserRouter>
-      <Header></Header>
-      <Routes>
-      <Route path="/Amazon_Clone" element={<HomePage></HomePage>}></Route>
-      <Route path="/about" element={<AboutPage></AboutPage>}></Route>
-      <Route path="/login" element={<LoginPage></LoginPage>}></Route>
-      <Route path="/signin" element={<SigninPage></SigninPage>}></Route>
-      <Route path="/products" element={<Products></Products>}></Route>
-      <Route path="/product_details/:product_id" element={<ProductDetails></ProductDetails>}></Route>
-      <Route path="/account" element={<Accounts></Accounts>}></Route>
-      <Route path="/cart" element={<CartPage></CartPage>}></Route>
-      </Routes>
-      <Footer></Footer>
-      </BrowserRouter>
-      </userContext.Provider>
+      <userContext.Provider value={users}>
+    <Router>  
+    <Header />
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/signin" element={<SigninPage />} />
+      <Route path="/products" element={<Products />} />
+      <Route path="/product_details/:product_id" element={<ProductDetails />} />
+      <Route path="/account" element={<Accounts />} />
+      <Route path="/cart" element={<CartPage />} />
+    </Routes>
+    <Footer />
+  </Router>
+</userContext.Provider>;
     </div>
   );
 }

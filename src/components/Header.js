@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div className='header'>
     <div className='primary-navbar'>
-        <Link to="/Amazon_Clone"><img src={download} className='img' alt="Amazon" /></Link>
+        <Link to="/"><img src={download} className='img' alt="Amazon" /></Link>
         <div className='location'>
         <img src={location} className="loc" alt=""></img>
             <div className="location-text">

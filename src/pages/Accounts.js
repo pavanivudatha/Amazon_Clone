@@ -1,12 +1,13 @@
 import React, { useContext } from 'react'
 import userContext from './UserContext'
 
+
 const Accounts = () => {
 
    var users=useContext(userContext) 
    const logout=()=>{
     localStorage.setItem("user_id",null)
-    window.location.replace("/Amazon_Clone")
+    window.location.href = "/Amazon_Clone/#/";
 }
 
   return (
