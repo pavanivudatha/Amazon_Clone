@@ -8,6 +8,7 @@ const Accounts = () => {
    const logout=()=>{
     localStorage.setItem("user_id",null)
     window.location.href = "/Amazon_Clone/#/";
+    window.location.reload();
 }
 
   return (

@@ -17,6 +17,7 @@ const LoginPage = () => {
             console.log(response.data.data.user_id)
             localStorage.setItem("user_id",response.data.data.user_id)
             window.location.href = "/Amazon_Clone/#/account";
+            window.location.reload();
         }
     }
   }
